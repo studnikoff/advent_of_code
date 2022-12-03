@@ -17,7 +17,7 @@ class CyclicGroup():
         previous_id = (id1-1)%self.order
         return self._cyclic_group[previous_id]
 
-
+# Part 1
 class RPS(CyclicGroup):
     def __init__(self, sorted_group: Tuple[Any], mapper: Dict[Any, Any]) -> None:
         for key in mapper:
